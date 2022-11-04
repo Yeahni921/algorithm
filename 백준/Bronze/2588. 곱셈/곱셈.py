@@ -1,6 +1,2 @@
-x = int(input())
-y = input()
-print(x*int(y[2]))
-print(x*int(y[1]))
-print(x*int(y[0]))
-print(x*int(y))
+a,b=map(int,open(0))
+print(b%10*a,b%100//10*a,b//100*a,b*a)
