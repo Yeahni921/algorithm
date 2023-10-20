@@ -1,8 +1,8 @@
 t = int(input())
 
-for i in range(t):
-    num, x = input().split()
+for _ in range(t):
+    r, s = input().split()
     text = ''
-    for j in x:
-        text = text + j*int(num)
+    for i in s:
+        text = text + i*int(r)
     print(text)
