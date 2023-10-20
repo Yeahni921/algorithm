@@ -1,8 +1,7 @@
-N = int(input())
-x = list(input())
+n = int(input())
+num = input()
 
-sum = 0
-for i in x:
-    sum = sum + int(i)
-print(sum)
-    
+result = 0
+for i in num:
+    result += int(i)
+print(result)
