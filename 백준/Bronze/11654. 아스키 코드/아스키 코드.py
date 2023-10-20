@@ -1,2 +1,2 @@
-x = input()
-print(ord(x))
+word = input()
+print(ord(word))
